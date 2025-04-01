@@ -1,6 +1,6 @@
-create database if not exists agenda;
+create database if not exists `agenda`;
 
-use agenda;
+use `agenda`;
 
 drop table if exists `tarefa`;
 
@@ -9,9 +9,7 @@ create table if not exists `tarefa` (
     `titulo` varchar(60) not null,
     `data_conclusao` datetime null
 );
-Estudar MySQL
-Levar o cachorro para passear
-Ir ao estádio assistir ao jogo Palmeiras x Corinthians
+
 
 
 
